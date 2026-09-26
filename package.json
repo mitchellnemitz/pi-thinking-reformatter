@@ -1,0 +1,22 @@
+{
+  "name": "pi-thinking-reformatter",
+  "version": "1.0.0",
+  "description": "Pi extension that reformats deepseek-style thinking blocks whose tokenization inserted spurious whitespace and line breaks, so they read like normal prose.",
+  "keywords": ["pi-package", "pi"],
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p pi/tsconfig.json"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "~0.87.0",
+    "@types/node": "22.19.21",
+    "typescript": "5.9.3"
+  },
+  "pi": {
+    "extensions": ["./pi"]
+  }
+}
