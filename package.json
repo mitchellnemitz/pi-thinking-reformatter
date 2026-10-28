@@ -1,6 +1,18 @@
 {
   "name": "pi-thinking-reformatter",
   "version": "1.0.0",
+  "author": "Mitchell Nemitz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitchellnemitz/pi-thinking-reformatter.git"
+  },
+  "homepage": "https://github.com/mitchellnemitz/pi-thinking-reformatter#readme",
+  "bugs": {
+    "url": "https://github.com/mitchellnemitz/pi-thinking-reformatter/issues"
+  },
+  "files": [
+    "pi"
+  ],
   "description": "Pi extension that reformats deepseek-style thinking blocks whose tokenization inserted spurious whitespace and line breaks, so they read like normal prose.",
   "keywords": ["pi-package", "pi"],
   "license": "MIT",

@@ -51,6 +51,12 @@ durable fix, not just a display-time transformation.
 ## Install
 
 ```
+pi install npm:pi-thinking-reformatter
+```
+
+Or from git:
+
+```
 pi install git:github.com/mitchellnemitz/pi-thinking-reformatter
 ```
 
